@@ -40,6 +40,11 @@ class Getbarang extends GetxController {
       'jumlahbeli': jumlahbeli,
       'totharga': tot,
     });
+
+    dbbarang.doc(id).update({
+      'jumlah': jumlah - jumlahbeli,
+    });
+
     temu.clear();
     Get.back();
     update();

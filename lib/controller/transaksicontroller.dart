@@ -16,6 +16,11 @@ class TransaksiController extends GetxController {
     update();
   }
 
+  hapustransaksiall({String id}) async {
+    await dbtransaksi.doc(id).delete();
+    update();
+  }
+
   Stream<QuerySnapshot> gettransaksi() {
     transaksi.clear();
     dbtransaksi

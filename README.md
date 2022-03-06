@@ -1,19 +1,15 @@
-# cashier
+# e-Kasir
 
-cashier aplication using flutter firebase
+Kelompok 3 - XII RPL 3
 
-# Design UI
-![alt text](https://github.com/baydim/cashier/blob/master/assets/Group%2014%20(5).png)
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Anggota :
+1. Faizal Rifki Arlan Sidiq (03)
+2. Febian Alan Saputra      (08)
+3. Haura Dwika Priandini    (12)
+4. Helena Kusumajati        (13)
+5. Helmy Awal Riyanto       (14)
+6. Irfan Dwi Prasetyo       (22)
+7. Irfan Muzakki            (23)
+8. Kandela Intan Utami      (25)
+9. Kareena Widagdo          (27)
+10. Labibah Raihantul Salwa (29)

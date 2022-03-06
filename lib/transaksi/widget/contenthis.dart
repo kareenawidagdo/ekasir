@@ -1,6 +1,8 @@
+import 'package:cashier/controller/transaksicontroller.dart';
 import 'package:cashier/manage/formater.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:get/get.dart';
 
 class ContentHis extends StatefulWidget {
   final Map a;
@@ -12,6 +14,7 @@ class ContentHis extends StatefulWidget {
 class _ContentHisState extends State<ContentHis> {
   final tg = new DateFormat('EEEE, dd MMMM yyyy & HH:mm', 'id_ID');
   bool x = false;
+  TransaksiController t = Get.put(TransaksiController());
   @override
   Widget build(BuildContext context) {
     return Theme(
@@ -83,6 +86,9 @@ class _ContentHisState extends State<ContentHis> {
                 color: Colors.grey,
               ),
             ),
+            // new ElevatedButton(onPressed: (){
+            //   t.hapustransaksiall(id: widget.a['id']);
+            // }, child: Text('Hapus')),
           ],
         ),
         onExpansionChanged: (value) {

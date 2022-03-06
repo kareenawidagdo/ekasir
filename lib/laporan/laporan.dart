@@ -9,6 +9,7 @@ class Laporan extends StatefulWidget {
 }
 
 class _LaporanState extends State<Laporan> {
+  TransaksiController t = Get.put(TransaksiController());
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -40,7 +41,7 @@ class _LaporanState extends State<Laporan> {
 
                   return Text(uang.format(b), style: Theme.of(context).textTheme.headline4);
                 },
-              )
+              ),
             ],
           ),
         )
